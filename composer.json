@@ -1,5 +1,5 @@
 {
-    "name": "fluentdom/html5",
+    "name": "marek-drozdz/html5",
     "type": "library",
     "description": "HTML5 support for FluentDOM",
     "keywords": [
@@ -15,13 +15,19 @@
     ],
     "config": {
         "platform": {
-            "php": "7.2"
+            "php": "8.5"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marek-drozdz/fluentdom"
+        }
+    ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.5",
         "ext-dom": "*",
-        "fluentdom/fluentdom": "^8.0.0",
+        "marek-drozdz/fluentdom": "dev-main",
         "masterminds/html5": "^2.7.0"
     },
     "require-dev": {
